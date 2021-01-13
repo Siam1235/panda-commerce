@@ -14,9 +14,9 @@
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="images/logo.png " alt=""></a>
+                <a class="navbar-brand" href="#home"><img src="images/logo.png " alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -24,10 +24,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active " aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Shoes</a>
-                        <a class="nav-link" href="#">Backpack</a>
-                        <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                        <a class="nav-link active " aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" href="#shoes">Shoes</a>
+                        <a class="nav-link" href="#backpack">Backpack</a>
+                        <a class="nav-link " href="#subscribe" tabindex="-1" aria-disabled="true">Subscribe</a>
 
                     </div>
 
@@ -43,7 +43,7 @@
             </div>
         </nav>
         <div id="carouselExampleControls" class="carousel slide panda-carousel" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div id="home" class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row d-flex justify-content-center align-items-center p-5">
                         <div class="col-md-7">
@@ -99,7 +99,7 @@
     </header>
     <main>
         <section class="container overflow-hidden mt-5 category">
-            <div class="row gx-5">
+            <div class="row g-5">
                 <div class="col">
                     <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-around">
                         <h1 class="text-white">Watch</h1>
@@ -121,7 +121,7 @@
             </div>
             </div>
         </section>
-        <section class="mt-5 container">
+        <section id="shoes" class="mt-5 container">
             <h3>Shoes</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -173,7 +173,7 @@
             </div>
         </section>
 
-        <section class="mt-5 container">
+        <section id="backpack" class="mt-5 container">
             <h3>Backpack</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -221,7 +221,7 @@
                 </div>
             </div>
         </section>
-        <section style="height: 400px;"
+        <section id="subscribe" style="height: 400px;"
             class="container d-flex justify-content-center align-items-center mt-5 panda-subscription">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
