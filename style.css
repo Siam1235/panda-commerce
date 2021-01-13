@@ -1,0 +1,33 @@
+.panda-carousel  .carousel-item{
+    background-color: #fceae8;
+    border-radius: 1em;
+    margin-top: 40px;
+}
+
+.btn-custom{
+    background-color: #ff4d94;
+    border-radius: 5%;
+    color: white;
+}
+
+.panda-subscription{
+    background-color: #fceae8;
+    border-radius: 1em;
+}
+
+.category img{
+    width: 100px;
+}
+
+.bg-pink{
+    background-color: #ff4d94;
+}
+
+.custom-footer{
+    border: 0;
+}
+
+.custom-body{
+    border: 0;
+    border-radius: 5%;
+}
